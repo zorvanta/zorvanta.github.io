@@ -64,6 +64,27 @@
     .site-img {
         height: 150px;
     }
+
+    /* Admin Button */
+    .admin-btn {
+        display: inline-block;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        padding: 15px 40px;
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+        background: #143f85;
+        border: none;
+        border-radius: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .admin-btn:hover {
+        background: #1a4fa8;
+    }
 </style>
 </head>
 <body>
@@ -71,7 +92,6 @@
 <!-- TOP BAR -->
 <div class="top-bar">
     <div class="logo">
-        <!-- Corvanta Logo -->
         <img src="https://ik.imagekit.io/l7uslhlci/IMG_3478.png" alt="Corvanta Logo">
         <span style="font-size:48px; font-weight:bold;">Zorvanta</span>
     </div>
@@ -88,16 +108,18 @@
 </div>
 
 <div class="sites">
-    <!-- VB Logo -->
     <img class="site-img" 
          src="https://ik.imagekit.io/l7uslhlci/IMG_3400.png?updatedAt=1763246893038" 
          alt="VB Logo">
 
-    <!-- Nerevion Logo -->
     <img class="site-img" 
          src="https://ik.imagekit.io/l7uslhlci/IMG_3458.png?updatedAt=1764347042359" 
          alt="Nerevion Logo">
 </div>
 
+<!-- ADMIN LOGIN BUTTON -->
+<a href="/admin" class="admin-btn">Admin Login</a>
+
 </body>
 </html>
+
